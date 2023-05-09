@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+  --bg-color: #d995f1;
+}
+
+* {
+  border: red 1px dashed;
+}
