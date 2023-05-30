@@ -1,3 +1,3 @@
-<header class="flex justify-center p-8">
-  <h1 class="text-6xl font-bold">MusicRemixer</h1>
+<header class="d-flex justify-content-center">
+  <h1 class="fs-1 fw-bold">MusicRemixer</h1>
 </header>
