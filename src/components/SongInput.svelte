@@ -1,4 +1,12 @@
-<form method="GET" action="?/search">
+<script>
+  export let form;
+</script>
+
+{#if form?.error}
+  <p class="error">{form.error}</p>
+{/if}
+
+<form method="POST" action="?/search">
   <div class="input-group mb-3">
     <span class="input-group-text"
       ><svg
@@ -19,6 +27,7 @@
       type="text"
       class="form-control"
       placeholder="Start typing a song..."
+      value={form?.song ?? ''}
     />
   </div>
 </form>
