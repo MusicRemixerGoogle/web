@@ -26,8 +26,8 @@
     <input
       type="text"
       class="form-control"
+      name="song"
       placeholder="Start typing a song..."
-      value={form?.song ?? ''}
     />
   </div>
 </form>
